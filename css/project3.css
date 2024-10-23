@@ -1,0 +1,107 @@
+ *{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+     box-sizing: border-box;
+ }
+ header{
+     width: 100%;
+     height: 80px;
+     display: block;
+     background-color: lightblue;
+ }
+ .inner-header{
+     width: 1000px;
+     height: 100%;
+     display: block;
+     margin: 0 auto; 
+ }
+ .logo-container{
+     height: 100%; 
+     display: table;
+     float: left;
+ }
+ .logo-container h1{
+     color: black;
+     height: 100%;
+     display: table-cell;
+     vertical-align: middle;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 32px;
+     font-weight: 200;
+ }
+ .logo-container h1 span{
+     font-weight: 800;
+ }
+ .navigation{
+     float: right;
+     height: 100%;
+ }
+ .navigation a{
+     height: 100%;
+     display: table;
+     float: left;
+     padding: 0px 20px;
+ }
+ .navigation a li{
+     display: table-cell;
+     vertical-align: middle;
+     height: 100%;
+     color: black;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size-adjust: 16px;
+ }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.sign-up{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 8% auto;
+}
+.sign-up h1{
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+button{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.signup-btn{
+   background-color: lightskyblue;
+}
+.google-btn{
+    background-color: lightblue;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
